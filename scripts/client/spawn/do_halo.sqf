@@ -43,19 +43,19 @@ if ( dojump > 0 ) then {
 	playSound "parasound";
 	sleep 2;
 	_backpack = backpack player;
-	if ( _backpack != "" && _backpack != "B_Parachute" ) then {
+	if ( _backpack != "" && _backpack != "B_LIB_GER_Parachute" ) then {
 		_backpackcontents = backpackItems player;
 		removeBackpack player;
 		sleep 0.1;
 	};
-	player addBackpack "B_Parachute";
+	player addBackpack "B_LIB_GER_Parachute";
 
 	player setpos halo_position;
 
 	sleep 4;
 	halojumping = false;
 	waitUntil { !alive player || isTouchingGround player };
-	if ( _backpack != "" && _backpack != "B_Parachute" ) then {
+	if ( _backpack != "" && _backpack != "B_LIB_GER_Parachute" ) then {
 		sleep 2;
 		player addBackpack _backpack;
 		clearAllItemsFromBackpack player;

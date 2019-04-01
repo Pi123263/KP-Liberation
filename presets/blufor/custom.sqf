@@ -8,7 +8,7 @@ Optional Mods:
 /* - Support classnames.
 Each of these should be unique, the same classnames for different purposes may cause various unpredictable issues with player actions. Or not, just don't try!	*/
 FOB_typename = 								"cwa_CampEast";					// This is the main FOB HQ building. 																									Default is "Land_Cargo_HQ_V1_F".
-FOB_box_typename = 							"B_Slingload_01_Cargo_F";		// This is the FOB as a container. 																										Default is "B_Slingload_01_Cargo_F".
+FOB_box_typename = 							"LIB_US_GMC_Parm";			// This is the FOB as a container. 																										Default is "B_Slingload_01_Cargo_F".
 FOB_truck_typename = 						"LIB_US_GMC_Parm";				// This is the FOB as a vehicle.																										Default is "B_Truck_01_box_F".
 Arsenal_typename = 							"fow_ab_us_60mm_m2_SMOKE";		// This is the virtual arsenal as portable supply crates.  																				Default is "B_supplyCrate_F".
 Respawn_truck_typename = 					"LIB_US_GMC_Ambulance";			// This is the mobile respawn (and medical) truck. 																						Default is "B_Truck_01_medical_F".
@@ -69,6 +69,8 @@ light_vehicles = [
 heavy_vehicles = [
 	["LIB_M3A3_Stuart",									200,	50,		40],
 	["LIB_M5A1_Stuart",									250,	75,		45],
+	["LIB_Crusader_Mk3",								300,	80,		50],
+	["LIB_Crusader_Mk1AA",								300,	80,		50],
 	["fow_v_cromwell_uk",								300,	150,	150],
 	["LIB_M4A3_75",										450,	200,	150],
 	["LIB_M4A3_75_tubes",								500,	200,	175],
